@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web技术基础实验V2.1</title>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .title {
+            text-align: center;
+            color: #0000FF;
+        }
+
+        a {
+            color: #1E16FF;
+            padding-right: 40px;
+        }
+
+        a:hover {
+            color: #FF1E1F;
+            font-size: 25px;
+        }
+
+        .background {
+            background-image: url("images/img_2.png");
+
+        }
+
+        .footer {
+            position: static;
+            color: #FF4696;
+            text-align: center;
+        }
+
+        .nav {
+            position: sticky;
+            top: 0;
+            display: flex;
+            margin-top: 20px;
+
+        }
+
+
+        .nav a:hover {
+            color: #FF1E1F;
+            font-size: 20px;
+        }
+
+        iframe {
+            display: block;
+            background-color: #7FFFD4;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+<h2 class="title">2023-2024学期课程情况</h2>
+<div class="nav background">
+    <a href="introduce.html" target="mainFrame">课程简介</a>
+    <a href="schedule.html" target="mainFrame">课表</a>
+    <a href="book.html" target="mainFrame">教材</a>
+</div>
+<iframe height="540px" name="mainFrame" src="introduce.html" width="100%"></iframe>
+<div class="footer background">
+    &copy;闽江学院 &nbsp;计算机和大数据学院&trade; 软件工程<br/>联系人：赵健 &nbsp;学号：3232508225
+</div>
+
+
+</body>
+</html>
